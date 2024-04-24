@@ -47,6 +47,10 @@
       "types": "./dist/dts/button/define.d.ts",
       "default": "./dist/esm/button/define.js"
     },
+    "./button/register-css-properties.js": {
+      "types": "./dist/dts/button/button.css-properties.d.ts",
+      "default": "./dist/esm/button/button.css-properties.js"
+    },
     "./checkbox.js": {
       "types": "./dist/dts/checkbox/define.d.ts",
       "default": "./dist/esm/checkbox/define.js"
@@ -142,6 +146,10 @@
     "./theme.js": {
       "types": "./dist/dts/theme/index.d.ts",
       "default": "./dist/esm/theme/index.js"
+    },
+    "./css-property-registry": {
+      "types": "./dist/dts/utils/css-property-registry.d.ts",
+      "default": "./dist/esm/utils/css-property-registry.js"
     }
   },
   "sideEffects": [
