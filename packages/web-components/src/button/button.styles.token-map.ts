@@ -8,7 +8,7 @@ export const buttonCSSTokenMap: Array<CSSTokenMap> = [
       name: "--semantic-button-background-rest", // semantic token
       default: null,
       fallback: {
-        name: "", // fluent 2 token (?)
+        name: "--neutral-background-1-rest", // fluent 2 token (?)
         default: null,
       }
     }
